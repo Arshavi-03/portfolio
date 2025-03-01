@@ -13,9 +13,9 @@ interface LandingPageProps {
 
 const LandingPage = ({ 
     onStart, 
-    githubUrl = "https://github.com/yourusername", 
-    linkedinUrl = "https://linkedin.com/in/yourusername", 
-    leetcodeUrl = "https://leetcode.com/yourusername" 
+    githubUrl = "https://github.com/Arshavi-03", 
+    linkedinUrl = "https://www.linkedin.com/in/arshavi-roy-730406265/", 
+    leetcodeUrl = "https://leetcode.com/arshaviroy/" 
 }: LandingPageProps) => {
     const [mounted, setMounted] = useState(false);
 
